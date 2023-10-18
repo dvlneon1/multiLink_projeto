@@ -1,3 +1,6 @@
+var nome = window.prompt('Qual seu nome ? ');
+window.alert(`Olá, ${nome} seja bem vindo a minha página de multilinks`);
+
 function toggleMode() {
     const html = document.documentElement
     html.classList.toggle('light');
